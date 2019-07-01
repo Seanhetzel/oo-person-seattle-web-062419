@@ -1,7 +1,7 @@
 class Person
 
   attr_reader :name
-  attr_accessor :bank_account, :happiness
+  attr_accessor :bank_account
 
   def initialize(name)
     @name = name
@@ -10,5 +10,6 @@ class Person
 
   end
 
-
+  def happiness=(happiness_index)
+    @happiness = happiness_index.clamp(0, 10)
 end
