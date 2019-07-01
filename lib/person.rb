@@ -1,6 +1,6 @@
 class Person
 
-  attr_writter :name
+  attr_writer :name
 
   def initialize(name)
     @name = name
