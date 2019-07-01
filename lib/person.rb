@@ -6,8 +6,7 @@ class Person
   def initialize(name)
     @name = name
     @bank_account = 25
-    @happiness = 8
-    @happiness.clamp(0, 10)
+    @happiness.clamp(0, 10) = 8
 
   end
 
