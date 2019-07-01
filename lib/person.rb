@@ -26,4 +26,11 @@ class Person
   def hygiene
     @hygiene
   end
+
+  def happy?
+    if @happiness > 7
+      true
+    else
+      false
+    end
 end
