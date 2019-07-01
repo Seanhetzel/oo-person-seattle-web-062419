@@ -12,4 +12,9 @@ class Person
 
   def happiness=(happiness_index)
     @happiness = happiness_index.clamp(0, 10)
+  end
+
+  def happiness
+    @happiness
+  end
 end
