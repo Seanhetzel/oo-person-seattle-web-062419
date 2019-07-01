@@ -18,4 +18,12 @@ class Person
   def happiness
     @happiness
   end
+
+  def hygiene=(hygiene_index)
+    @hygiene = hygiene_index.clamp(0, 10)
+  end
+
+  def hygiene
+    @hygiene
+  end
 end
